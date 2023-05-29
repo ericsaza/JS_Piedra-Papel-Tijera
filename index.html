@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel y Tijeras | Eric_sa_za</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:0px) and (max-width:618px)"
+        href="style/style-mobile.css">
+    <style>
+        .retro {
+            font-family: 'Press Start 2P', cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1 class="retro">Piedra Papel Tijera</h1>
+        <h2 class="retro">¡Escoge una opción!</h2>
+        <div id="juego">
+            <div class="usuario">
+                <h3 class="retro">Usuario:</h3>
+                <img src="imagenes/papel.svg" id="usuario"></img>
+            </div>
+            <div id="marcador" class="retro">
+                0 - 0
+            </div>
+            <div class="maquina">
+                <h3 class="retro">CPU:</h3>
+                <img src="imagenes/papel.svg" id="maquina"></img>
+            </div>
+        </div>
+        <div id="resultado">
+        </div>
+        <div id="botones">
+            <button onclick="juego('papel')" value="papel">
+                <img src="imagenes/papel.svg" class="carta" id="papel"></img>
+            </button>
+            <button onclick="juego('piedra')" value="piedra">
+                <img src="imagenes/piedra.svg" class="carta" id="piedra"></img>
+            </button>
+            <button onclick="juego('tijera')" value="tijera">
+                <img src="imagenes/tijera.svg" class="carta"></img>
+            </button>
+        </div>
+
+        <footer>Copyright © 2023 Eric Salado Zafra</footer>
+    </div>
+</body>
+<script src="js/piedraPapelTijera.js"></script>
+
+</html>

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("../imagenes/fondo.png");
+}
+
+/* ".contenedor": Contenedor del juego */
+.contenedor {
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#botones {
+    max-width: 600px;
+    display: flex;
+    width: 100%;
+}
+
+/* "img": Imagenes dentro de los botones */
+#botones>button>img {
+    width: 100%;
+}
+
+#botones>button {
+    margin: 20px;
+    background-color: yellow;
+    border-radius: 100px;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+#botones>button:hover {
+    background-color: rgb(160, 160, 57);
+}
+
+footer {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 20px;
+}
+
+#juego {
+    height: 0vh;
+    display: flex;
+    text-align: center;
+}
+
+#juego>img {
+    margin: 20px;
+}
+
+.usuario>img {
+    width: 200px;
+}
+
+.maquina>img {
+    width: 200px;
+}
+
+h2, h1 {
+    display: block;
+    font-size: 1.5em;
+    /* margin-block-start: 0.83em; */
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#resultado {
+    margin-top: 100px;
+}
