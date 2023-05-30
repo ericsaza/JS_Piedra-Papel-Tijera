@@ -4,7 +4,9 @@ let puntosUsuario = 0;
 let puntosMaquina = 0;
 let cartasClickadas = 0;
 var ventana = window.matchMedia("(max-width: 800px)")
-
+if (ventana.matches) {
+    resultado.innerHTML = 'ESCOGIENDO!';
+}
 /**
  * El usuario puslará un botón/carta y será la que se mostrará
  * @param {cartaUsuario} carta 
