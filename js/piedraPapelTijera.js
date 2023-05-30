@@ -3,11 +3,8 @@ let cartaRandomMaquina = '';
 let puntosUsuario = 0;
 let puntosMaquina = 0;
 let cartasClickadas = 0;
-let ventana = window.matchMedia("(max-width: 800px)");
-let resultado = document.querySelector('.resultado');
-if (ventana.matches) {
-    resultado.innerHTML = '';
-}
+var ventana = window.matchMedia("(max-width: 800px)")
+
 /**
  * El usuario puslará un botón/carta y será la que se mostrará
  * @param {cartaUsuario} carta 
@@ -19,6 +16,8 @@ function juego(carta) {
 
     let resultado = document.querySelector('.resultado');
     if (!ventana.matches) {
+
+    } else {
         resultado.innerHTML = 'ESCOGIENDO!';
     }
     const intervalo = setInterval(function () {
