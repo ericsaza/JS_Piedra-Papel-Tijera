@@ -15,6 +15,9 @@ function juego(carta) {
     cartaEscogida = carta;
 
     let resultado = document.querySelector('.resultado');
+    if (!ventana.matches) {
+        resultado.innerHTML = 'ESCOGIENDO!';
+    }
     const intervalo = setInterval(function () {
         cartaMaquina();
     }, 200);
@@ -87,7 +90,6 @@ function encontrarGanador(cartaEscogida, cartaRandomMaquina, resultado, ventana)
             }
         }
     } else {
-        resultado.innerHTML = 'ESCOGIENDO!';
         if (cartaEscogida === 'papel') {
             if (cartaRandomMaquina === 'papel') {
                 resultado.innerHTML = 'HABEIS EMPATADO!';
