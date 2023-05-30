@@ -3,6 +3,7 @@ let cartaRandomMaquina = '';
 let puntosUsuario = 0;
 let puntosMaquina = 0;
 let cartasClickadas = 0;
+var ventana = window.matchMedia("(max-width: 800px)")
 
 /**
  * El usuario puslará un botón/carta y será la que se mostrará
@@ -13,13 +14,14 @@ function juego(carta) {
     cartaUsuario.src = 'imagenes/' + carta + '.svg';
     cartaEscogida = carta;
 
+    let resultado = document.querySelector('.resultado');
     const intervalo = setInterval(function () {
         cartaMaquina();
     }, 200);
     setTimeout(function () {
         clearInterval(intervalo);
         cartaMaquina();
-        encontrarGanador(cartaEscogida, cartaRandomMaquina);
+        encontrarGanador(cartaEscogida, cartaRandomMaquina, resultado, ventana);
         document.getElementById('marcador');
         marcador.innerHTML = puntosUsuario + " - " + puntosMaquina;
     }
@@ -50,37 +52,72 @@ function cartaMaquina() {
  * @param {} cartaEscogida 
  * @param {*} cartaRandomMaquina 
  */
-function encontrarGanador(cartaEscogida, cartaRandomMaquina) {
-    let resultado = document.getElementById('resultado');
-    if (cartaEscogida === 'papel') {
-        if (cartaRandomMaquina === 'papel') {
-            alert('HABEIS EMPATADO!');
-        } else if (cartaRandomMaquina === 'piedra') {
-            alert('HAS GANADO!');
-            puntosUsuario += 1;
-        } else if (cartaRandomMaquina === 'tijera') {
-            alert('HAS PERDIDO!');
-            puntosMaquina += 1;
+function encontrarGanador(cartaEscogida, cartaRandomMaquina, resultado, ventana) {
+    if (ventana.matches) {
+        resultado.innerHTML = '';
+        if (cartaEscogida === 'papel') {
+            if (cartaRandomMaquina === 'papel') {
+                alert('HABEIS EMPATADO!');
+            } else if (cartaRandomMaquina === 'piedra') {
+                alert('HAS GANADO!');
+                puntosUsuario += 1;
+            } else if (cartaRandomMaquina === 'tijera') {
+                alert('HAS PERDIDO!');
+                puntosMaquina += 1;
+            }
+        } else if (cartaEscogida === 'piedra') {
+            if (cartaRandomMaquina === 'piedra') {
+                alert('HABEIS EMPATADO!');
+            } else if (cartaRandomMaquina === 'papel') {
+                alert('HAS PERDIDO!');
+                puntosMaquina += 1;
+            } else if (cartaRandomMaquina === 'tijera') {
+                alert('HAS GANADO!');
+                puntosUsuario += 1;
+            }
+        } else if (cartaEscogida === 'tijera') {
+            if (cartaRandomMaquina === 'tijera') {
+                alert('HABEIS EMPATADO!');
+            } else if (cartaRandomMaquina === 'piedra') {
+                alert('HAS PERDIDO!');
+                puntosMaquina += 1;
+            } else if (cartaRandomMaquina === 'papel') {
+                alert('HAS GANADO!');
+                puntosUsuario += 1;
+            }
         }
-    } else if (cartaEscogida === 'piedra') {
-        if (cartaRandomMaquina === 'piedra') {
-            alert('HABEIS EMPATADO!');
-        } else if (cartaRandomMaquina === 'papel') {
-            alert('HAS PERDIDO!');
-            puntosMaquina += 1;
-        } else if (cartaRandomMaquina === 'tijera') {
-            alert('HAS GANADO!');
-            puntosUsuario += 1;
-        }
-    } else if (cartaEscogida === 'tijera') {
-        if (cartaRandomMaquina === 'tijera') {
-            alert('HABEIS EMPATADO!');
-        } else if (cartaRandomMaquina === 'piedra') {
-            alert('HAS PERDIDO!');
-            puntosMaquina += 1;
-        } else if (cartaRandomMaquina === 'papel') {
-            alert('HAS GANADO!');
-            puntosUsuario += 1;
+    } else {
+        resultado.innerHTML = 'ESCOGIENDO!';
+        if (cartaEscogida === 'papel') {
+            if (cartaRandomMaquina === 'papel') {
+                resultado.innerHTML = 'HABEIS EMPATADO!';
+            } else if (cartaRandomMaquina === 'piedra') {
+                resultado.innerHTML = 'HAS GANADO!';
+                puntosUsuario += 1;
+            } else if (cartaRandomMaquina === 'tijera') {
+                resultado.innerHTML = 'HAS PEDIDO!';
+                puntosMaquina += 1;
+            }
+        } else if (cartaEscogida === 'piedra') {
+            if (cartaRandomMaquina === 'piedra') {
+                resultado.innerHTML = 'HABEIS EMPATADO!';
+            } else if (cartaRandomMaquina === 'papel') {
+                resultado.innerHTML = 'HAS PEDIDO!';
+                puntosMaquina += 1;
+            } else if (cartaRandomMaquina === 'tijera') {
+                resultado.innerHTML = 'HAS GANADO!';
+                puntosUsuario += 1;
+            }
+        } else if (cartaEscogida === 'tijera') {
+            if (cartaRandomMaquina === 'tijera') {
+                resultado.innerHTML = 'HABEIS EMPATADO!';
+            } else if (cartaRandomMaquina === 'piedra') {
+                resultado.innerHTML = 'HAS PEDIDO!';
+                puntosMaquina += 1;
+            } else if (cartaRandomMaquina === 'papel') {
+                resultado.innerHTML = 'HAS GANADO!';
+                puntosUsuario += 1;
+            }
         }
     }
 }
