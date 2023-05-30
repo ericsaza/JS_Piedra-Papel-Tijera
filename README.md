@@ -27,7 +27,7 @@ Juego de "piedra, papel o tijeras" hecho con HTML, CSS y JS.
 - `script.js`: Contiene el código JavaScript para poder jugar y mostrar el resultado en la pantalla.
 
 # Contribuciones
-Las contribuciones son bienvenidas. Si tienes alguna idea para mejorar la calculadora o encuentras algún error, siéntete libre de abrir un problema o enviar una solicitud de extracción en el repositorio.
+Las contribuciones son bienvenidas. Si tienes alguna idea para mejorar el juego o encuentras algún error, siéntete libre de abrir un problema o enviar una solicitud de extracción en el repositorio.
 
 # Créditos
 Este proyecto fue creado por [Eric_sa_za](https://www.linkedin.com/in/eric-salado-zafra/) y puedes encontrar el repositorio original [aquí](https://github.com/ericsaza).
