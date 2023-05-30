@@ -22,9 +22,9 @@ Juego de "piedra, papel o tijeras" hecho con HTML, CSS y JS.
 - Recomendación No darle muchas veces, solo darle al principio o cuando te haya dado un resultado para evitar problemas.
 
 # Aquí está la estructura básica de los archivos:
-`index.html`: Contiene la estructura HTML del juego y enlaza los archivos CSS y JavaScript.
-`style.css`: Define los estilos y la apariencia del juego.
-`script.js`: Contiene el código JavaScript para poder jugar y mostrar el resultado en la pantalla.
+- `index.html`: Contiene la estructura HTML del juego y enlaza los archivos CSS y JavaScript.
+- `style.css`: Define los estilos y la apariencia del juego.
+- `script.js`: Contiene el código JavaScript para poder jugar y mostrar el resultado en la pantalla.
 
 # Contribuciones
 Las contribuciones son bienvenidas. Si tienes alguna idea para mejorar la calculadora o encuentras algún error, siéntete libre de abrir un problema o enviar una solicitud de extracción en el repositorio.
