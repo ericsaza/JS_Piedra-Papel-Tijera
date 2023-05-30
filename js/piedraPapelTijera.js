@@ -3,9 +3,10 @@ let cartaRandomMaquina = '';
 let puntosUsuario = 0;
 let puntosMaquina = 0;
 let cartasClickadas = 0;
-var ventana = window.matchMedia("(max-width: 800px)")
+let ventana = window.matchMedia("(max-width: 800px)");
+let resultado = document.querySelector('.resultado');
 if (ventana.matches) {
-    resultado.innerHTML = 'ESCOGIENDO!';
+    resultado.innerHTML = '';
 }
 /**
  * El usuario puslará un botón/carta y será la que se mostrará
