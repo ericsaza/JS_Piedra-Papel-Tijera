@@ -15,11 +15,9 @@ function juego(carta) {
     cartaEscogida = carta;
 
     let resultado = document.querySelector('.resultado');
-    if (!ventana.matches) {
-
-    } else {
+    // if (!ventana.matches) {
         resultado.innerHTML = 'ESCOGIENDO!';
-    }
+    // }
     const intervalo = setInterval(function () {
         cartaMaquina();
     }, 200);
