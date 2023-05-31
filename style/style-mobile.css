@@ -85,5 +85,6 @@ h2, h1 {
 }
 
 .resultado {
-    margin-top: 40vh;
+    margin-top: 30vh;
+    width: 100%;
 }
