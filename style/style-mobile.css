@@ -48,8 +48,11 @@ body {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+    width: 99%;
     text-align: center;
-}
+  }
 
 h1 {
     font-size: 40px;
