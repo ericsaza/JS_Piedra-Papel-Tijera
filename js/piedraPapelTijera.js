@@ -11,7 +11,7 @@ var ventana = window.matchMedia("(max-width: 800px)")
  */
 function juego(carta) {
     let cartaUsuario = document.getElementById('usuario');
-    cartaUsuario.src = 'imagenes/' + carta + '.svg';
+    cartaUsuario.src = 'img/' + carta + '.svg';
     cartaEscogida = carta;
 
     let resultado = document.querySelector('.resultado');
@@ -38,13 +38,13 @@ function cartaMaquina() {
     let cartaRandom = Math.floor(Math.random() * (3 - 1 + 1) + 1);
     let maquina = document.getElementById('maquina');
     if (cartaRandom === 1) {
-        maquina.src = 'imagenes/papel.svg';
+        maquina.src = 'img/papel.svg';
         cartaRandomMaquina = 'papel';
     } else if (cartaRandom === 2) {
-        maquina.src = 'imagenes/piedra.svg';
+        maquina.src = 'img/piedra.svg';
         cartaRandomMaquina = 'piedra';
     } else {
-        maquina.src = 'imagenes/tijera.svg';
+        maquina.src = 'img/tijera.svg';
         cartaRandomMaquina = 'tijera';
     }
     // console.log(cartaRandom);
