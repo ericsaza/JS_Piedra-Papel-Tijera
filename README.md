@@ -1,3 +1,4 @@
+English / [Spanish](https://github.com/ericsaza/JS_Rock-Paper-Scissors/blob/main/README_es.md)
 # JS_Rock-Paper-Scissors
 Rock paper scissors game made with HTML, CSS and JS.
 
@@ -26,9 +27,9 @@ Rock paper scissors game made with HTML, CSS and JS.
 - `style.css`: Defines the styles and appearance of the game.
 - `script.js`: Contains the JavaScript code to be able to play and display the result on the screen.
 
-# Contributions
+# Contributions:
 Contributions are welcome. If you have any ideas to improve the game or find any bugs, feel free to open an issue or submit a pull request in the repository.
 
-# credits
+# Credits:
 This project was created by [Eric_sa_za](https://github.com/ericsaza) and you can find the original repository [here](https://github.com/ericsaza/JS_Rock-Paper-Scissors).
 If you use this code, please mention and link to the repository.

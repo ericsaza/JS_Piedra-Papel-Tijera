@@ -1,17 +1,18 @@
+[English](https://github.com/ericsaza/JS_Rock-Paper-Scissors/blob/main/README.md) / Spanish
 # JS_Piedra-Papel-Tijera
 Juego de "piedra, papel o tijeras" hecho con HTML, CSS y JS.
 
-# Características
+# Características:
 - Interfaz de usuario intuitiva y fácil de usar.
 - Podrás jugar contra la máquina.
 - Diseño sencillo.
 
-# Capturas de Pantalla
+# Capturas de Pantalla:
 ![image](https://github.com/ericsaza/JS_Piedra-Papel-Tijera/assets/94136968/6d48a8f6-b1e9-424d-8857-40a6ddb157c0)
 ![image](https://github.com/ericsaza/JS_Piedra-Papel-Tijera/assets/94136968/0f97c177-9c87-411a-8762-9a0ec596fc00)
 
 
-# Uso
+# Uso:
 1. Descarga todos los archivos del repositorio.
 2. Abre el archivo `index.html` en tu navegador web.
 3. Le das al botón de lo que quieras escoger.
@@ -26,10 +27,10 @@ Juego de "piedra, papel o tijeras" hecho con HTML, CSS y JS.
 - `style.css`: Define los estilos y la apariencia del juego.
 - `script.js`: Contiene el código JavaScript para poder jugar y mostrar el resultado en la pantalla.
 
-# Contribuciones
+# Contribuciones:
 Las contribuciones son bienvenidas. Si tienes alguna idea para mejorar el juego o encuentras algún error, siéntete libre de abrir un problema o enviar una solicitud de extracción en el repositorio.
 
-# Créditos
-Este proyecto fue creado por [Eric_sa_za](https://www.linkedin.com/in/eric-salado-zafra/) y puedes encontrar el repositorio original [aquí](https://github.com/ericsaza).
+# Créditos:
+Este proyecto fue creado por [Eric_sa_za](https://github.com/ericsaza) y puedes encontrar el repositorio original [aquí](https://github.com/ericsaza/JS_Rock-Paper-Scissors).
 Si utilizas este código, por favor, menciona y enlaza el repositorio.
 
