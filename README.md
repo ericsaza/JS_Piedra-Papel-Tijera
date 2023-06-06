@@ -1,35 +1,34 @@
-# JS_Piedra-Papel-Tijera
-Juego de "piedra, papel o tijeras" hecho con HTML, CSS y JS.
+# JS_Rock-Paper-Scissors
+Rock paper scissors game made with HTML, CSS and JS.
 
-# Características
-- Interfaz de usuario intuitiva y fácil de usar.
-- Podrás jugar contra la máquina.
-- Diseño sencillo.
+# Attributes:
+- Intuitive and easy to use user interface.
+- You can play against the machine.
+- Simple design.
 
-# Capturas de Pantalla
+# Screenshots:
 ![image](https://github.com/ericsaza/JS_Piedra-Papel-Tijera/assets/94136968/6d48a8f6-b1e9-424d-8857-40a6ddb157c0)
 ![image](https://github.com/ericsaza/JS_Piedra-Papel-Tijera/assets/94136968/0f97c177-9c87-411a-8762-9a0ec596fc00)
 
 
-# Uso
-1. Descarga todos los archivos del repositorio.
-2. Abre el archivo `index.html` en tu navegador web.
-3. Le das al botón de lo que quieras escoger.
-4. Esperas 3 segundos a que la `máquina` escoga una opción.
-5. Y te dirá si has ganado o perdido.
-- Si deseas personalizar el diseño o la funcionalidad de la calculadora, puedes editar los archivos HTML, CSS y JavaScript según tus necesidades.
-- Tambien puedes ir al enlace de mi página desde [aquí](https://ericsaza.github.io/JS_Piedra-Papel-Tijera/).
-- Recomendación No darle muchas veces, solo darle al principio o cuando te haya dado un resultado para evitar problemas.
+# How to use:
+1. Download all the files from the repository.
+2. Open the `index.html` file in your web browser.
+3. You give the button of what you want to choose.
+4. You wait 3 seconds for the `machine` to choose an option.
+5. And it will tell you if you have won or lost.
+- If you want to customize the design or functionality of the calculator, you can edit the HTML, CSS and JavaScript files according to your needs.
+- You can also go to the link of my page from [here](https://ericsaza.github.io/JS_Rock-Paper-Scissors/).
+- Recommendation Do not give it many times, only give it at the beginning or when it has given you a result to avoid problems.
 
-# Aquí está la estructura básica de los archivos:
-- `index.html`: Contiene la estructura HTML del juego y enlaza los archivos CSS y JavaScript.
-- `style.css`: Define los estilos y la apariencia del juego.
-- `script.js`: Contiene el código JavaScript para poder jugar y mostrar el resultado en la pantalla.
+# Here is the basic structure of the files:
+- `index.html`: Contains the HTML structure of the game and links to the CSS and JavaScript files.
+- `style.css`: Defines the styles and appearance of the game.
+- `script.js`: Contains the JavaScript code to be able to play and display the result on the screen.
 
-# Contribuciones
-Las contribuciones son bienvenidas. Si tienes alguna idea para mejorar el juego o encuentras algún error, siéntete libre de abrir un problema o enviar una solicitud de extracción en el repositorio.
+# Contributions
+Contributions are welcome. If you have any ideas to improve the game or find any bugs, feel free to open an issue or submit a pull request in the repository.
 
-# Créditos
-Este proyecto fue creado por [Eric_sa_za](https://www.linkedin.com/in/eric-salado-zafra/) y puedes encontrar el repositorio original [aquí](https://github.com/ericsaza).
-Si utilizas este código, por favor, menciona y enlaza el repositorio.
-
+# credits
+This project was created by [Eric_sa_za](https://github.com/ericsaza) and you can find the original repository [here](https://github.com/ericsaza/JS_Rock-Paper-Scissors).
+If you use this code, please mention and link to the repository.
