@@ -1,5 +1,5 @@
 English / [Spanish](https://github.com/ericsaza/JS_Rock-Paper-Scissors/blob/main/README_es.md)
-# JS_Rock-Paper-Scissors
+# Rock-Paper-Scissors
 Rock paper scissors game made with HTML, CSS and JS.
 
 # Attributes:
