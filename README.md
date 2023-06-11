@@ -19,7 +19,7 @@ Rock paper scissors game made with HTML, CSS and JS.
 4. You wait 3 seconds for the `machine` to choose an option.
 5. And it will tell you if you have won or lost.
 - If you want to customize the design or functionality of the calculator, you can edit the HTML, CSS and JavaScript files according to your needs.
-- You can also go to the link of my page from [here](https://ericsaza.github.io/JS_Rock-Paper-Scissors/).
+- You can also go to the link of my page from [here](https://ericsaza.github.io/Rock-Paper-Scissors/).
 - Recommendation Do not give it many times, only give it at the beginning or when it has given you a result to avoid problems.
 
 # Here is the basic structure of the files:
@@ -31,5 +31,5 @@ Rock paper scissors game made with HTML, CSS and JS.
 Contributions are welcome. If you have any ideas to improve the game or find any bugs, feel free to open an issue or submit a pull request in the repository.
 
 # Credits:
-This project was created by [Eric_sa_za](https://github.com/ericsaza) and you can find the original repository [here](https://github.com/ericsaza/JS_Rock-Paper-Scissors).
+This project was created by [Eric_sa_za](https://github.com/ericsaza) and you can find the original repository [here](https://github.com/ericsaza/Rock-Paper-Scissors).
 If you use this code, please mention and link to the repository.
