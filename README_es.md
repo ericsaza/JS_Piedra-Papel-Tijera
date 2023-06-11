@@ -1,5 +1,5 @@
 [Inglés](https://github.com/ericsaza/JS_Rock-Paper-Scissors/blob/main/README.md) / Español
-# JS_Piedra-Papel-Tijera
+# Rock-Paper-Scissors
 Juego de "piedra, papel o tijeras" hecho con HTML, CSS y JS.
 
 # Características:
