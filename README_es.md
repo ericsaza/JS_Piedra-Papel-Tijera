@@ -19,7 +19,7 @@ Juego de "piedra, papel o tijera" hecho con HTML, CSS y JS.
 4. Esperas 3 segundos a que la `máquina` escoga una opción.
 5. Y te dirá si has ganado o perdido.
 - Si deseas personalizar el diseño o la funcionalidad de la calculadora, puedes editar los archivos HTML, CSS y JavaScript según tus necesidades.
-- Tambien puedes ir al enlace de mi página desde [aquí](https://ericsaza.github.io/JS_Piedra-Papel-Tijera/).
+- Tambien puedes ir al enlace de mi página desde [aquí](https://ericsaza.github.io/Piedra-Papel-Tijera/).
 - Recomendación No darle muchas veces, solo darle al principio o cuando te haya dado un resultado para evitar problemas.
 
 # Aquí está la estructura básica de los archivos:
@@ -31,6 +31,6 @@ Juego de "piedra, papel o tijera" hecho con HTML, CSS y JS.
 Las contribuciones son bienvenidas. Si tienes alguna idea para mejorar el juego o encuentras algún error, siéntete libre de abrir un problema o enviar una solicitud de extracción en el repositorio.
 
 # Créditos:
-Este proyecto fue creado por [Eric_sa_za](https://github.com/ericsaza) y puedes encontrar el repositorio original [aquí](https://github.com/ericsaza/JS_Rock-Paper-Scissors).
+Este proyecto fue creado por [Eric_sa_za](https://github.com/ericsaza) y puedes encontrar el repositorio original [aquí](https://github.com/ericsaza/Rock-Paper-Scissors).
 Si utilizas este código, por favor, menciona y enlaza el repositorio.
 
